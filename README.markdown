@@ -1,8 +1,10 @@
 
-
 Yuta Takayama
 
+Assignment 7
 
+heroku link:
+http://freezing-fire-6048.heroku.com/
 
 
 
