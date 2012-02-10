@@ -22,6 +22,11 @@ describe "LayoutLinks" do
     response.should have_selector('title', :content => "Help")
   end
 
+  it "should have a signup page at '/signup'" do
+    get '/signup'
+    response.should have_selector('title', :content => "Sign up")
+  end
+
   #describe "GET /layout_links" do
   #  it "works! (now write some real specs)" do
   #    # Run the generator again with the --webrat flag if you want to use webrat methods/matchers
